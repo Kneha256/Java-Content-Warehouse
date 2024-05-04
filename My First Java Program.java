@@ -5,7 +5,7 @@ public class FirstJavaCode{
 }
 
 import java.util.*;
-class HelloWorld {
+class VOte {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int age=sc.nextInt();
