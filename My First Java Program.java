@@ -4,6 +4,8 @@ public class FirstJavaCode{
     }
 }
 
+
+
 import java.util.*;
 class VOte {
     public static void main(String[] args) {
@@ -14,6 +16,25 @@ class VOte {
         }
         else{
             System.out.println("Cannot Vote");
-                  }
+  }
+ }
+}
+
+
+
+
+import java.util.*;
+class ODD_EVEN {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int number=sc.nextInt();
+        if(number%2==0){
+             System.out.println("even number");
+        }
+        else{
+            System.out.println("odd number");
+         }
     }
 }
+
+
