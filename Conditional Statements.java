@@ -97,6 +97,7 @@ class GREETING {
             default:System.out.println("Invalid input");
         }
  }
+    
 }
 
 
