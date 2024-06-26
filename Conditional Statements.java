@@ -101,4 +101,58 @@ class GREETING {
 }
 
 
+import java.util.*;
+public class grt_no{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        if(a>b){
+            System.out.println("a is greater");
+        }
+        else{
+            System.out.println("b is greater");}}}
 
+
+import java.util.*;
+public class Odd_Even{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        
+        if(a%2==0){
+            System.out.println(a+" is an even number");
+        }
+        else{
+            System.out.println(a+" is an odd number");}}}
+
+
+
+import java.util.*;
+public class Tax_Calc{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        int income=sc.nextInt();
+        int tax;
+         if(income<500000){
+            tax=income*0;
+         }
+        else if(income>=500000 && income<1000000){
+            tax=(int)(income*0.2);
+        }
+        else{
+           tax=(int)(income*0.3);}
+        System.out.println("tax is: "+tax);
+    }}
+
+
+
+import java.util.*;
+public class result{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        int marks=sc.nextInt();
+        String reportCard=(marks>=33)?"pass":"fail";
+        System.out.println(reportCard);
+        
+    }}
