@@ -47,3 +47,36 @@ public class javaBasic{
 }
     
 }
+
+
+import java.util.*;
+public class HelloWorld{
+    public static int calavg(int a,int b, int c){
+        return (a+b+c)/3;
+    }
+    public static void main(String args[]){
+        int a=3;
+        int b=4;
+        int c=4;
+        int avg=calavg(a,b,c);
+        System.out.println(avg);
+    }
+}
+
+//or
+
+
+import java.util.*;
+public class HelloWorld{
+    public static void calavg(int a,int b, int c){
+      int avg=(a+b+c)/3;
+      System.out.println(avg);
+    }
+    public static void main(String args[]){
+        int a=3;
+        int b=4;
+        int c=4;
+        calavg(a,b,c);
+        
+    }
+}
