@@ -14,3 +14,56 @@ public class JavaBasics{
         
     }
 }
+
+
+
+
+
+import java.util.*;
+public class HelloWorld{
+    public static boolean EvenorNot(int a){
+        if(a%2==0){
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        int num=sc.nextInt();
+        if(EvenorNot(num)){
+        System.out.println("even number");
+        }
+        else{
+            System.out.println("odd number");
+        }
+    }
+}
+
+
+
+
+import java.util.*;
+public class HelloWorld{
+    public static int SumOfNum(int a){
+        int sum=0;
+        for(int i=1;i<=a;i++){
+            sum+=i;
+        }
+        System.out.println(sum);
+        return sum;
+    }
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter a number");
+        int num=sc.nextInt();
+        SumOfNum(num);
+    }
+}
+
+
+
+
+
+
