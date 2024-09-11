@@ -230,3 +230,36 @@ public class Advance_pattern{
         Number_Pyramid(5);
     }
 }
+
+
+
+//palindromic pattern with numbers
+public class Advance_pattern{
+    public static void Palindromic_patterns_with_numbers(int n){
+        //outerloop
+        for(int i=1;i<=n;i++){
+            //spaces
+            for(int j=1;j<=n-i;j++){
+                System.out.print(" ");
+            }
+            //decending numbers
+        for(int j=i;j>=1;j--){
+                System.out.print(j);
+            }
+            //accending numbers
+        for(int j=2;j<=i;j++){
+                System.out.print(j);
+            }
+            System.out.println();
+        }
+
+    }
+    public static void main(String args[]){
+        Palindromic_patterns_with_numbers(5);
+    }
+}
+
+
+
+                    
+            
