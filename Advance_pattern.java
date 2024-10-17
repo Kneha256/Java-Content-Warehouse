@@ -260,6 +260,22 @@ public class Advance_pattern{
 }
 
 
-
+public class Advance_pattern{
+    public static void HollowRectangle(int nrows, int ncolms ){
+        for(int i=1;i<=nrows;i++){
+            for(int j=1;j<=ncolms;j++){
+                if(i==1 || i==nrows || j==1 || j==ncolms ){
+                    System.out.print("*");
+                }
+                else{
+                System.out.print(" ");}
+            }
+            System.out.println();
+        }
+        }
+        public static void main(String args[]){
+            HollowRectangle(4,5);
+    }
+    }
                     
             
