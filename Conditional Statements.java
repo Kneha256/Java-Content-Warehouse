@@ -6,7 +6,8 @@ public class Prime_Number{
         else{
            System.out.println("non prime");
         }
-       }}
+       }
+}
 
 
 
