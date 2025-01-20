@@ -76,3 +76,23 @@ public class Hello {
       
   }
 }
+
+import java.util.*;
+
+public class Hello {
+    public static int getvalue(int numbers[]){
+      int largest = Integer.MIN_VALUE;
+      for(int i=0;i<numbers.length;i++){
+        if(numbers[i]>largest){
+          largest=numbers[i];
+        }
+      }
+      return largest;
+    }
+    
+    public static void main(String[] args) {
+      int numbers[]={2,3,4,9,5,8};
+      System.out.println("largest number is : "+getvalue(numbers));
+      
+  }
+}
