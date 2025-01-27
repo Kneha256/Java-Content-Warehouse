@@ -12,6 +12,7 @@ public class JavaBasics{
         int c=sc.nextInt();
         int Avg=CalcAvg(a,b,c);
         System.out.println(Avg);
+
         
     }
 }
