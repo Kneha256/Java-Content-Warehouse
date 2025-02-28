@@ -14,7 +14,8 @@ class Main {
         System.out.println(q.isEmpty());//False
         System.out.println(q.contains(20)); //true
         System.out.println(q.toArray()[2]);//40
-        System.out.println(q);
+        System.out.println(q.remove());//remove 20
+        System.out.println(q);[30, 40]
         
     }
 }
